@@ -14,6 +14,7 @@
 <body>
 <header class="navbar" id="navbar">
   <div class="container nav-inner">
+    
     <a class="brand" href="#home"><span>GRL</span><small>FARMS</small></a>
     <nav class="desktop-nav">
       <a href="#home">Home</a><a href="#about">About</a><a href="#farm">Our Farm</a>
@@ -42,6 +43,64 @@
     </div>
   </div>
   <a class="scroll-cue" href="#about">SCROLL ↓</a>
+</section>
+
+<section class="weather-section" id="weather">
+  <div class="container">
+
+    <div class="weather-card">
+
+      <div class="weather-header">
+        <p class="eyebrow">FARM WEATHER</p>
+        <h2>GRL FARMS — TODAY</h2>
+        <span class="weather-location">
+          📍 Salahalli, Karnataka – 591130
+        </span>
+      </div>
+
+      <div class="weather-grid">
+
+        <div class="weather-item">
+          <span>🌡️</span>
+          <div>
+            <small>Temperature</small>
+            <h3 id="temperature">--°C</h3>
+          </div>
+        </div>
+
+        <div class="weather-item">
+          <span>💧</span>
+          <div>
+            <small>Humidity</small>
+            <h3 id="humidity">--%</h3>
+          </div>
+        </div>
+
+        <div class="weather-item">
+          <span>🌧️</span>
+          <div>
+            <small>Rain Probability</small>
+            <h3 id="rainProbability">--%</h3>
+          </div>
+        </div>
+
+        <div class="weather-item">
+          <span>💨</span>
+          <div>
+            <small>Wind Speed</small>
+            <h3 id="windSpeed">-- km/h</h3>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="weather-updated" id="weatherUpdated">
+        Loading live weather...
+      </p>
+
+    </div>
+
+  </div>
 </section>
 
 <section class="section" id="about">
@@ -99,7 +158,7 @@
       <!-- COWS -->
       <article class="animal-card reveal">
         <img
-          src="ChatGPT Image Aug 24, 2026, 03_58_36 PM.png"
+          src="Images/Cow.png"
           alt="Cows at GRL FARMS"
         >
 
@@ -116,7 +175,7 @@
       <!-- OXEN -->
       <article class="animal-card reveal">
         <img
-          src="ChatGPT Image Aug 24, 2026, 03_48_31 PM.png"
+          src="Images/OX.png"
           alt="Oxen at GRL FARMS"
         >
 
@@ -173,7 +232,7 @@
   <div class="container">
     <div class="section-head reveal"><div><p class="eyebrow">WHAT WE GROW</p><h2>From our soil<br><em>to your table.</em></h2></div><a class="text-link" href="#contact">Enquire about crops ↗</a></div>
     <div class="crop-grid">
-      <article class="crop featured reveal"><img src="ChatGPT Image Aug 24, 2026, 04_06_06 PM.png" alt="Green agricultural crop field"><div><small>SEASONAL CROP</small><h3>Sugarcane</h3><p>A central crop for the farm, cultivated with care and attention to the land.</p></div></article>
+      <article class="crop featured reveal"><img src="Images/Sugarcane.png" alt="Green agricultural crop field"><div><small>SEASONAL CROP</small><h3>Sugarcane</h3><p>A central crop for the farm, cultivated with care and attention to the land.</p></div></article>
       <article class="crop reveal"><img src="https://images.unsplash.com/photo-1492496913980-501348b61469?auto=format&fit=crop&w=1000&q=85" alt="Seasonal crops"><div><small>EDITABLE</small><h3>Seasonal Crops</h3><p>Add your seasonal crops here.</p></div></article>
       <article class="crop reveal"><img src="https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?auto=format&fit=crop&w=1000&q=85" alt="Fresh vegetables"><div><small>EDITABLE</small><h3>Fruits &amp; Vegetables</h3><p>Add your fruits and vegetables here.</p></div></article>
     </div>
@@ -434,7 +493,7 @@
     <div class="section-head reveal"><div><p class="eyebrow">FROM THE FARM</p><h2>A glimpse of<br><em>GRL FARMS.</em></h2></div><p>Replace these images with your real farm photographs.</p></div>
     <div class="gallery" id="galleryGrid">
       <button data-category="Farm" data-img="https://images.unsplash.com/photo-1500076656116-558758c991c1?auto=format&fit=crop&w=1800&q=85"><img src="https://images.unsplash.com/photo-1500076656116-558758c991c1?auto=format&fit=crop&w=1000&q=85" alt="Farm"><span>Farm</span></button>
-      <button data-category="Crops" data-img="https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&w=1800&q=85"><img src="https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&w=1000&q=85" alt="Crops"><span>Crops</span></button>
+      <button data-category="Crops" data-img="Images/Sugarcane.png"><img src="Images/Sugarcane.png" alt="Crops"><span>Crops</span></button>
       <button data-category="Nature" data-img="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1800&q=85"><img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1000&q=85" alt="Sunrise"><span>Nature</span></button>
       <button data-category="Harvest" data-img="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1800&q=85"><img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1000&q=85" alt="Harvest"><span>Harvest</span></button>
       <button data-category="Agriculture" data-img="https://images.unsplash.com/photo-1492496913980-501348b61469?auto=format&fit=crop&w=1800&q=85"><img src="https://images.unsplash.com/photo-1492496913980-501348b61469?auto=format&fit=crop&w=1000&q=85" alt="Agriculture"><span>Agriculture</span></button>

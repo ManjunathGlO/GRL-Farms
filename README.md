@@ -1,2 +1,0 @@
-# GRL-Farms
-GRL Farms
